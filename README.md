@@ -45,6 +45,7 @@ We plan to use the following technologies:
 
 The project follows a standard data science structure:
 
+```bash
 gh-ev-finance-propensity/
 ├── .gitignore
 ├── README.md
@@ -56,6 +57,7 @@ gh-ev-finance-propensity/
 ├── streamlit_app/        # Streamlit dashboard application
 ├── requirements.txt
 └── ...
+```
 
 ## ⏳ Current Status
 
