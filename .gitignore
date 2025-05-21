@@ -3,6 +3,12 @@ __pycache__/
 *.py[cod]
 *.class
 
+# Data files
+data/01_raw/*
+# data/02_intermediate/* # Keep this commented if you want to track intermediate files
+# data/03_processed/*
+# models/*
+
 # C extensions
 *.so
 
