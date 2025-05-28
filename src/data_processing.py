@@ -73,7 +73,6 @@ def filter_by_age(df, min_age, age_column='age'):
     print(f"✅ Filtered by age: {filtered_rows} rows remaining (>= {min_age} years). {rows_removed} rows removed.")
     return df_filtered
 
-
 def impute_missing_values(df, strategies):
     """Imputes missing values based on a dictionary of strategies ('median', 'mode', or a specific value)."""
     if df is None or df.empty:
